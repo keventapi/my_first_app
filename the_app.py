@@ -92,8 +92,9 @@ class main():
 		self.window.clipboard_clear()
 		self.window.clipboard_append(f"{content[0]} {content[1]}")
 		
+
 if __name__ == "__main__":
-		main = main()
-		main.make_screen_content()
+	main = main()
+	main.make_screen_content()
 		
 	
